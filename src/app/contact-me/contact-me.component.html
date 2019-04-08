@@ -1,0 +1,24 @@
+<h2  i18n="@@contactMeHeader" class="card-title center-text">Contacto:</h2>
+<form (ngSubmit)="sendForm()" [formGroup]="contactForm">
+  <div>
+      <div class="field">
+          <label>Nombre</label>
+          <input required type="text" name="name" class="input" placeholder="Your Name" formControlName="name">
+        </div>
+      
+        <div class="field">
+          <label>Email</label>
+          <input required type="email" name="email" class="input" placeholder="Your Email" formControlName="email">
+        </div>
+      
+        <div class="field">
+          <label>Comentario</label>
+          <textarea required class="textarea" name="message" placeholder="Escribe tu comentario..."
+            formControlName="comment"></textarea>
+        </div>
+        
+        <button type="submit" class="button-submit" [disabled]="!contactForm.valid">Submit</button>
+        <button type="button" class="button-save" (click)="saveForm()">Save</button>
+        <button type="button" class="button-reset" (click)="resetForm()">Reset</button>
+  </div>
+</form>

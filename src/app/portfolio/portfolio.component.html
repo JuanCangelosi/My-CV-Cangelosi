@@ -1,0 +1,8 @@
+<h2 i18n="@@projectHeader" class="card-title center-text"> Mis Projectos: </h2>
+<div *ngIf="!(repos | async)">
+    <cv-loader></cv-loader>
+</div>
+
+<p *ngFor="let repo of repos | async" @fadeIn>
+  {{repo.name}}
+</p>

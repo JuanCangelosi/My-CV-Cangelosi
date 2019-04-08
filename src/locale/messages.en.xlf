@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="es-ar" datatype="plaintext" original="ng2.template">
+    <body>
+    <trans-unit id="projectHeader" datatype="html">
+      <source> Mis Projectos: </source>
+      <target state="new">My Projects:</target>
+    </trans-unit>
+    <trans-unit id="skillsHeader" datatype="html">
+      <source> Mis Habilidades</source>
+      <target state="new">My Skills:</target>
+    </trans-unit>
+    <trans-unit id="languagesHeader" datatype="html">
+      <source>Lenguajes</source>
+      <target state="new">Languages:</target>
+    </trans-unit>
+    <trans-unit id="contactMeHeader" datatype="html">
+      <source>Contacto</source>
+      <target state="new">Contact Me:</target>
+    </trans-unit>
+    <trans-unit id="otherSkillsHeader" datatype="html">
+      <source> Otras Habilidades: </source>
+      <target state="new">Other Skills:</target>
+    </trans-unit>
+    <trans-unit id="aboutMeHeader" datatype="html">
+      <source> Sobre mí: </source>
+      <target state="new">About Me:</target>
+    </trans-unit>
+    <trans-unit id="aboutMeParagraph" datatype="html">
+      <source>   
+        Estudiante avanzado de Ingeniería en Sistemas de Software.
+        Disfruto los desafíos, siempre busco mejorarme y
+        seguir aprendiendo. 
+      </source>
+      <target state="new">
+        Software Systems Engineer Student. I enjoy challenges
+        and I always search to improve myself and keep learning new things.
+      </target>
+    </trans-unit>
+    <trans-unit id="educationHeader" datatype="html">
+      <source> Educación: </source>
+      <target state="new">Education:</target>
+    </trans-unit>
+    <trans-unit id="workExperienceHeader" datatype="html">
+      <source> Experiencia de Trabajo: </source>
+      <target state="new">Work Experience:</target>
+    </trans-unit>
+    <trans-unit id="ageParagraph" datatype="html">
+      <source>Edad: 23 años </source>
+      <target state="new">Age: 23 Years Old</target>
+    </trans-unit>
+    <trans-unit id="cityParagraph" datatype="html">
+      <source>Ciudad: Bahía Blanca, Buenos Aires, Argentina.</source>
+      <target state="new">City: Bahía Blanca, Buenos Aires Province, Argentina.</target>
+    </trans-unit>
+    <trans-unit id="dobParagraph" datatype="html">
+      <source>Fecha de Nacimiento: 14/08/1995</source>
+      <target state="new">BirthDate: 08/14/1995</target>
+    </trans-unit>
+    <trans-unit id="studiesParagraph" datatype="html">
+      <source>Estudios: Ingeniería en Sistemas de Información (UNS)</source>
+      <target state="new">Studies: Ingeniería en Sistemas de Información (UNS)</target>
+    </trans-unit>
+    <trans-unit id="contactHeader" datatype="html">
+      <source>Contacto</source>
+      <target state="new">Contact</target>
+    </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -32,6 +32,14 @@
             "scripts": []
           },
           "configurations": {
+            "en": {
+              "aot": true,
+              "outputPath": "dist/my-project-en/",
+              "i18nFile": "src/locale/messages.en.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "en",
+              "i18nMissingTranslation": "error"
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -66,6 +74,9 @@
           "configurations": {
             "production": {
               "browserTarget": "my-cv:build:production"
+            },
+            "en": {
+              "browserTarget": "my-cv:build:en"
             }
           }
         },

@@ -1,0 +1,23 @@
+<h2 i18n="@@skillsHeader" class="card-title center-text"> Mis Habilidades </h2>
+<div class="flex-container center-text">
+  <div *ngFor="let skill of mySkills" class="skill-container">
+    {{skill.name}}
+    <div class="meter">
+      <span @growBar [ngStyle]="{width: skill.percentage + '%' }"></span>
+    </div>
+  </div>
+</div>
+
+<h3 i18n="@@languagesHeader">Lenguajes: </h3>
+<ul>
+  <li *ngFor="let language of myLanguages">
+    {{language.name}}-{{language.level}}
+  </li>
+</ul>
+
+<h3 i18n="@@otherSkillsHeader"> Otras Habilidades: </h3>
+<ul>
+  <li *ngFor="let otherSkill of myOtherSkills">
+    {{otherSkill}}
+  </li>
+</ul>

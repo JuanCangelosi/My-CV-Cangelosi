@@ -1,0 +1,37 @@
+<h2 i18n="@@aboutMeHeader" class="card-title center-text"> Sobre mí: </h2>
+<div>
+  <p i18n="@@aboutMeParagraph" class="center-text">
+    Estudiante avanzado de Ingeniería en Sistemas de Software.
+    Disfruto los desafíos, siempre busco mejorarme y
+    seguir aprendiendo.
+  </p>
+</div>
+
+
+<h3 i18n="@@educationHeader" class="center-text">Educación</h3>
+<div>
+  <div *ngFor="let ed of education" class="experience-container">
+    <div class="time-col">
+      <p>{{ed.period}}</p>
+    </div>
+    <div class="info-col">
+      <strong>{{ed.name}}</strong>
+      <p>{{ed.place}}</p>
+      <small>{{ed.otherInfo}}</small>
+    </div>
+  </div>
+</div>
+
+<h3 i18n="@@workExperienceHeader" class="center-text">Experiencia de trabajo</h3>
+<div>
+  <div *ngFor="let experience of workExperiences" class="experience-container">
+    <div class="time-col">
+      <p>{{experience.period}}</p>
+    </div>
+    <div class="info-col">
+      <strong>{{experience.name}}</strong>
+      <p>{{experience.place}}</p>
+      <small>{{experience.otherInfo}}</small>
+    </div>
+  </div>
+</div>
