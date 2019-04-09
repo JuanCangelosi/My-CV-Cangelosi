@@ -2,12 +2,20 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="es-ar" datatype="plaintext" original="ng2.template">
     <body>
+    <trans-unit id="skillsTab" datatype="html">
+      <source> HABILIDADES </source>
+      <target state="new">SKILLS</target>
+    </trans-unit>
+    <trans-unit id="contactTab" datatype="html">
+      <source> CONTACTO </source>
+      <target state="new">CONTACT ME</target>
+    </trans-unit>
     <trans-unit id="projectHeader" datatype="html">
       <source> Mis Projectos: </source>
       <target state="new">My Projects:</target>
     </trans-unit>
     <trans-unit id="skillsHeader" datatype="html">
-      <source> Mis Habilidades</source>
+      <source> Mis Habilidades:</source>
       <target state="new">My Skills:</target>
     </trans-unit>
     <trans-unit id="languagesHeader" datatype="html">

@@ -10,6 +10,6 @@ export class GithubConnectionService {
   constructor(private http: HttpClient) { }
 
   public getRepositories() {
-    return this.http.get<GithubRepository>('https://api.github.com/users/JuanCangelosi/repos');
+    return this.http.get<GithubRepository[]>('https://api.github.com/users/JuanCangelosi/repos');
   }
 }

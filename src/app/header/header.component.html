@@ -1,10 +1,13 @@
 <div>
   <ul class="tabs">
     <li class="tab">
-      <a class="home-btn" [routerLink]="['/about']" routerLinkActive="router-link-active" ><i class="fa fa-home" aria-hidden="true"></i></a>
+      <a class="home-btn" [routerLink]="['/about']" routerLinkActive="router-link-active"><i class="fa fa-home"
+          aria-hidden="true"></i></a>
     </li>
-    <li class="tab"><a [routerLink]="['/skills']" routerLinkActive="router-link-active" >SKILLS</a></li>
-    <li class="tab"><a [routerLink]="['/portfolio']" routerLinkActive="router-link-active" >PORTFOLIO</a></li>
-    <li class="tab"><a [routerLink]="['/contact']" routerLinkActive="router-link-active" >CONTACT ME</a></li>
+    <li class="tab"><a [routerLink]="['/skills']" routerLinkActive="router-link-active"
+        i18n="@@skillsTab">HABILIDADES</a></li>
+    <li class="tab"><a [routerLink]="['/portfolio']" routerLinkActive="router-link-active">PORTFOLIO</a></li>
+    <li class="tab"><a [routerLink]="['/contact']" routerLinkActive="router-link-active" i18n="@@contactTab">CONTACTO</a>
+    </li>
   </ul>
 </div>

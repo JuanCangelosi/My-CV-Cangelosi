@@ -8,6 +8,7 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
 const routes: Routes = [
   {
     path: '', children: [
+      { path: '', redirectTo: 'about', pathMatch: 'full'},
       { path: 'about', component: AboutComponent },
       { path: 'skills', component: AbilitiesComponent },
       { path: 'portfolio', component: PortfolioComponent },

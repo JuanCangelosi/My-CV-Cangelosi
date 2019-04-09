@@ -19,7 +19,7 @@ import { trigger, transition, style, animate } from '@angular/animations';
 })
 export class PortfolioComponent implements OnInit {
 
-  public repos: Observable<GithubRepository>;
+  public repos: Observable<GithubRepository[]>;
 
   constructor(private githubConnectionService: GithubConnectionService) { }
 

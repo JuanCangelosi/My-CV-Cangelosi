@@ -1,0 +1,10 @@
+.fa-star {
+    color: #eded30;
+}
+
+.list-item {
+    display: flex;
+    .list-item-row-1 {
+        flex-grow: 1;
+    }
+}
