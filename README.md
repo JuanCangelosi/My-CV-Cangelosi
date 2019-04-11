@@ -2,9 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
+This app was made in less than 6 hours, and it's style could be heavily improved, but there isn't enough time for it.
+
+To see the [App Running](https://juancangelosi.github.io/My-CV-Cangelosi/about)
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server and the page will be in spanish. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Internationalization (i18)
+
+Run `ng serve --configuration=en` for a dev server and the page will be translated to english. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
